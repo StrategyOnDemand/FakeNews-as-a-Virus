@@ -10,3 +10,10 @@ The algorithm works as follows:
 1. The large set of tweets is then vectorised using the space library
 1. All tweets in the vectorized space that are in within proximity to the original tweet are then extracted as `usefull`, i.e. they most likely are talking about the same topic as the original tweet.
 1. For each of the tweets the user timeline of the author is collected and stored.
+
+To collect the Twitter data you need to supply the following command:
+```
+python data-collection.py [tweet-id] [token-file-location]
+```
+- tweet-id: the ID of the tweet of which you want to find the origin
+- token-file-location: the lokation of your token file, which should be a `.json` file which contains at minimum the `Bearer-token` for the Twitter API.
