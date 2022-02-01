@@ -1,0 +1,19 @@
+{
+  "name": "fake-news-as-a-virus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.9.4"
+  },
+  "dependencies": {
+    "parse-json": "^6.0.2",
+    "python-bridge": "^1.1.0"
+  }
+}

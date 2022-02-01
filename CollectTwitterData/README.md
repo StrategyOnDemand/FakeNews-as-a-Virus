@@ -11,7 +11,7 @@ The algorithm works as follows:
 1. All tweets in the vectorized space that are in within proximity to the original tweet are then extracted as `usefull`, i.e. they most likely are talking about the same topic as the original tweet.
 1. For each of the tweets the user timeline of the author is collected and stored.
 
-To collect the Twitter data you need to supply the following command:
+To collect the Twitter data you should excecute the following command:
 ```
 python data-collection.py [tweet-id] [token-file-location]
 ```
